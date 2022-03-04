@@ -12,7 +12,7 @@ Misformatted input are not sent to backend, and presents error message for user
 
 ### Usage
 
-- Live runnig in heroku at: [primenumbercheck.herokuapp.com] (https://primenumbercheck.herokuapp.com/)
+- Live runnig in heroku at: [primenumbercheck.herokuapp.com](https://primenumbercheck.herokuapp.com/)
 - To run locally: clone repository, npm install, cd frontend ,npm install
 - Run tests (backend only): `npm run test`
 - Run locally (react live develepoment): \
