@@ -17,7 +17,7 @@ Misformatted input are not sent to backend, and presents error message for user
 - Run tests (backend only): `npm run test`
 - Run locally (react live develepoment): \
 start backend with: `PORT=3005 npm start` \
-start frontend with: `cd frontend && BACKENDURL=http://localhost:3005 npm start`
+start frontend with: `cd frontend && REACT_APP_BACKEND=http://localhost:3005 npm start`
 - (use port 3005 on backend etc to prevent port collision with react-app)
 - Run tests (backend only): `npm run test`
 - Make frontend production build: `npm run buildfront`
