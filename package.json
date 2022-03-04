@@ -1,0 +1,25 @@
+{
+    "name": "primenumber-challenge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --verbose --detectOpenHandles --runInBand",
+        "build": "rm -rf /frontend/build && cd frontend && npm run build",
+        "start": "node index.js"
+
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.3"
+    },
+    "devDependencies": {
+        "jest": "^27.5.1",
+        "supertest": "^6.2.2"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    }
+}

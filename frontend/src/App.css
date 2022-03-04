@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(60, 60, 60)
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    min-width: 600px;
+    align-items: center;
+    background-color: azure;
+    color: rgb(20, 20, 20);
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: -4px 8px 20px 10px
+    /* flex-grow: 0; */
+}
+
+.heading {
+    margin-bottom: 65px;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.inputField {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+
+.ok {
+    color: rgb(20, 20, 20);
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
