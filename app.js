@@ -16,7 +16,7 @@ const unknownEndpoint = (request, response) => {
 };
 
 app.use(cors())
-app.use(express.static(path.join(__dirname, 'frontend/build')))
+app.use(express.static(path.join(__dirname + '/public')))
 
 app.get('/api/sumandcheck', (req, res) => {
     let numbers = req.query.numbers
