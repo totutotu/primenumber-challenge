@@ -1,6 +1,4 @@
 /node_modules
 .env
-/frontend/.gitignore
-/public
 /frontend/build
 
