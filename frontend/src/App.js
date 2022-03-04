@@ -9,8 +9,8 @@ const App = () => {
 
   const checkInput = (value) => {
     if (value === '') {
-      setResult({ type: null, value: '' });
       clearTimeout(timer);
+      setResult({ type: null, value: '' });
       return;
     }
 
@@ -29,6 +29,7 @@ const App = () => {
         });
       }, 500);
     } else {
+      clearTimeout(timer)
       timer = setTimeout(() => {
         getCheckPrime(value).then((result) => {
           setResult(result);
